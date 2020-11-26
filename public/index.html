@@ -10,6 +10,7 @@
      https://firebase.google.com/docs/web/setup#available-libraries -->
     <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-firestore.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"></script>
 
     <link
       rel="stylesheet"
@@ -42,6 +43,10 @@
     <section id="whenSignedIn" hidden="false">
       <div id="userDetails"></div>
       <button id="signOutBtn">Sign out</button>
+    </section>
+    <section>
+      <button id="createThing">Create Random Thing</button>
+      <ul id="thingsList"></ul>
     </section>
   </body>
 </html>
